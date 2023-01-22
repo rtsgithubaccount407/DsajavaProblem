@@ -1,0 +1,25 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+                Scanner sc = new Scanner(System.in);
+
+                // User input
+                int N = sc.nextInt();               // variable name liya  to hm __usse hi related ham condition banyenge
+
+                // Step 1
+                if(N<30)          //N se hi condition denge 
+                {
+                        System.out.println("less important");
+                }
+                else                                                // otherwise will be print more important
+                {
+                        System.out.println("more important");
+                }
+                
+	}
+}
